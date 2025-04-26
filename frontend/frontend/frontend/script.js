@@ -3,7 +3,7 @@ const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
 // Replace with your OpenAI API key
-const API_KEY = "sk-your-api-key"; 
+const API_KEY = "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"; 
 
 sendBtn.addEventListener('click', async () => {
   const message = userInput.value;
